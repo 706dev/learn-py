@@ -8,3 +8,6 @@ The ideas of this course:
     OR
 
 - Use it as structure to teach others
+
+# Disclaimer
+The current file structure is not how it is intended to be taught. Currently working out proper teaching structure for the course. This repo is currently sitting as an information dump, soon to be sorted.
