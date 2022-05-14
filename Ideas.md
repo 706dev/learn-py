@@ -67,10 +67,12 @@
 - [ ] Modules
   - [ ] Imports
 
-
 - [ ] Objects
   - [ ] Dictionaries
   - [ ] Classes
     - [ ] When to use classes
     - [ ] Replacing Dictionaries
+    - [ ] Properties
+    - [ ] Methods
     - [ ] Initialization
+    - [ ] Inheritance
