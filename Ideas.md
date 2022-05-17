@@ -27,21 +27,21 @@
 # Information
 *Check off the topic as you've added sufficient information about the topic*
 
-- [ ] General Beginning
-  - [ ] Why do we program?
-  - [ ] What is Python?
-  - [ ] What is PEP8?
+- [x] General Beginning
+  - [x] Why do we program?
+  - [x] What is Python?
+  - [x] What is PEP8?
 
-- [ ] Data Types
-  - [ ] String
-  - [ ] Integer
-  - [ ] Float
-  - [ ] Boolean
-  - [ ] List
-  - [ ] Tuple
-  - [ ] Set
-  - [ ] Dictionary
-  - [ ] NoneType
+- [x] Data Types
+  - [x] String
+  - [x] Integer
+  - [x] Float
+  - [x] Boolean
+  - [x] List
+  - [x] Tuple
+  - [x] Set
+  - [x] Dictionary
+  - [x] NoneType
 
 - [ ] Variables
     - [ ] Naming conventions
