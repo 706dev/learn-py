@@ -1,5 +1,5 @@
 # Data Types
-In programming we have something called data types. Data types are the categorization of data in our program. I know that's one heck of a sentence. Basically when we want the computer to rememebr something, it should know what category to put that data in.
+In programming we have something called data types. Data types are the categorization of data in our program. I know that's one heck of a sentence. Basically when we want the computer to remember something, it should know what category to put that data in.
 
 ## String
 A string is a sequence of Unicode characters. Strings are surrounded by double or single quotes.
