@@ -37,7 +37,6 @@ class Inventory:
             if buyer.inventory.gold >= value:
                 self.remove_item(item_id)
                 self.add_gold(value)
-                item.value += (value*0.3)
                 buyer.inventory.add_item(item)
                 buyer.inventory.remove_gold(value)
                 print(f'You have sold {item.name} for {item.value}')
@@ -45,3 +44,12 @@ class Inventory:
                 print('Shop is broke!')
         else:
             print('Item does not exist')
+
+    def transfer_item(self, item, new_inventory):
+        new_inventory.add_item(item)
+        self.remove_item(item.uid)
+
+    def transfer_all_items(self, new_inventory):
+        for item in self.items:
+            self.transfer_item(item, new_inventory)
+            
