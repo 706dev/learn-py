@@ -4,6 +4,7 @@ from inventory import Inventory
 class Character:
     def __init__(self, uid: int, name: str):
         self.uid = uid
+        self.position = (0, 0)
         self.name = name
         self.health = 100
         self.damage = 10
@@ -14,8 +15,9 @@ class Character:
 
     def __repr__(self):
         return (
-            f'==== Character: {self.name} ====\n'
+            f'==== Character: {self.uid} {self.name} ====\n'
             f'Health: {self.health}\n'
+            f'Location: {self.position}\n'
             f'Inventory:\n{self.inventory}\n'
         )
 
@@ -48,3 +50,24 @@ class Character:
             target.inventory.gold = 0
         else:
             print(f"You can't loot an alive target!")
+
+
+
+    def get_new_position(self, direction):
+
+        x = self.position[0]
+        y = self.position[1]
+
+        if direction == 'up':
+            y += 1
+        elif direction == 'down':
+            y -= 1
+        elif direction == 'right':
+            x += 1
+        elif direction == 'left':
+            x -= 1
+        
+        return (x, y)
+
+    def update_position(self, new_position):
+        self.position = new_position

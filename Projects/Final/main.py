@@ -1,29 +1,35 @@
-from character import Character
-from shop import Shop
-from item import Item, Weapon
+from game import Game
+
 
 def main():
-    player = Character(1, "Psuedo")
-    enemy = Character(2, "Monster")
-    sword = Weapon(1, "Sword", 100, 5000)
-    dagger = Weapon(2, "Dagger", 10, 10)
+    game = Game("Psuedo")
 
-    player.inventory.add_item(sword)
-    enemy.inventory.add_item(dagger)
+    game.attempt_player_move('up')
+    print(game.characters)
 
-    player.equip(1)
-    enemy.equip(2)
+    # player = Character(1, "Psuedo")
+    # enemy = Character(2, "Monster")
+    # sword = Weapon(1, "Sword", 100, 5000)
+    # dagger = Weapon(2, "Dagger", 10, 10)
 
-    print(player)
-    print(enemy)
+    # player.inventory.add_item(sword)
+    # enemy.inventory.add_item(dagger)
 
-    player.attack(enemy)
+    # player.equip(1)
+    # enemy.equip(2)
 
-    print(enemy)
+    # print(player)
+    # print(enemy)
 
-    player.loot(enemy)
+    # player.attack(enemy)
 
-    print(player)
+    # print(enemy)
+
+    # player.loot(enemy)
+
+    # print(player)
+
+
 
 
 
