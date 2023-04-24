@@ -1,3 +1,5 @@
+# This project is on pause for now.
+
 # learn-py
 This is a basic Python course. Currently under structure development. Feel free to add information!
 
